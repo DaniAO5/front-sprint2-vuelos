@@ -1,0 +1,119 @@
+
+$font-ppal: 'Franklin Gothic Medium'; 
+$font-text: 'arial';
+$color-white:#ffff;
+$color-gray:rgb(221, 221, 221);
+$color-magenta: #a50864;
+
+.change_fligths{
+    width: 150px;
+    height: 30px;
+    border: 3px solid $color-magenta;
+    border-radius: 15px;
+}
+
+.change1{
+    color:$color-magenta;
+    font-family: $font-text;
+    margin-left: 20px;
+}
+
+.choose{
+    display:flex;
+   
+    &_fligths{
+        display: flex;
+        flex-direction: column;
+        &--salida{
+            width: 700px;
+            height: 250px;
+            margin-left: 90px;
+            margin-top: 50px;
+            &_head{
+                display: flex;
+                justify-content: space-between;
+                h3{
+                    font-family: $font-ppal;
+                    font-size: 30px;
+                }
+            }
+            &_body{
+                h5{
+                    font-family: $font-ppal;
+                    font-size: 20px;
+                    margin-top: 15px;
+                }
+                h6{
+                    font-family: $font-text;
+                    font-size: 13px;
+                    color: gray;     
+                }
+                
+                }
+            }
+        }
+
+    }      
+
+.choose_info--vuelo{
+    display: flex ;
+    align-items: center;
+    width: 700px;
+    height: 100px;
+    background-color: rgb(231, 228, 228);
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    &_salida{
+        width: 230px;
+        font-family: $font-text;
+        margin-left: 15px;
+        color: rgb(109, 104, 104);
+    }
+    button{
+        width: 180px;
+        height: 50px;
+        font-family: $font-ppal;
+        font-size: 15px;
+        color: $color-white;
+        background-color: $color-magenta;
+        border: none;
+        border-radius: 10px;
+        cursor:pointer;
+    }
+}
+
+.choose_choose{
+    display: flex;
+    flex-direction: column;
+    &--reserva{
+        width: 400px;
+        height: 200px;
+        background-color: rgb(233, 230, 230);;
+        margin-top: 50px;
+        margin-left: 80px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px 1px $color-magenta;
+        h4{
+            font-family: $font-text;
+            margin: 20px;
+        }
+        p{
+            font-family: $font-text;
+            font-size: 15px;
+            margin: 20px;
+
+        }
+    }
+}
+.change2{
+    font-family: $font-ppal;
+    font-size: 20px;
+    color: $color-magenta;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 180px;
+    cursor:pointer;
+}
+
